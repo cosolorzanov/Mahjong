@@ -19,24 +19,33 @@
 
 H:
 
-# Mahjong
+# Solitario Mahjong
 
 Carlos Orlando Solórzano
 
 H:
 
 ## Contenido
-
- 1. Objetivos<!-- .element: class="fragment" data-fragment-index="1"-->
- 2. Interacción<!-- .element: class="fragment" data-fragment-index="2"-->
- 3. Demo<!-- .element: class="fragment" data-fragment-index="3"-->
- 4. Conclusiones<!-- .element: class="fragment" data-fragment-index="4"-->
- 5. Preguntas<!-- .element: class="fragment" data-fragment-index="5"-->
+ 1. Introducción<!-- .element: class="fragment" data-fragment-index="1"-->
+ 2. Objetivos<!-- .element: class="fragment" data-fragment-index="2"-->
+ 3. Interacción<!-- .element: class="fragment" data-fragment-index="3"-->
+ 4. Demo<!-- .element: class="fragment" data-fragment-index="4"-->
+ 5. Conclusiones<!-- .element: class="fragment" data-fragment-index="5"-->
  6. Referencias<!-- .element: class="fragment" data-fragment-index="6"-->
 
 H:
 
+## Introducción
+
+Solitario mahjong es un juego de solitario donde el jugador es retado a eliminar todas las piezas del tablero.
+
+H:
+
 ## Objetivos
+
+* Implementar el juego Solitario mahjong.
+	* Diferentes niveles de dificultad.
+	* Facil interacción con el usuario.
 
 H:
 
@@ -44,15 +53,37 @@ H:
 
 | **Tecla**  | **Descripción** |
 | :---: | :---: |
+|Space|Cambiar de nivel|
+|s|Iniciar / Salir del juego|
+|r|Desorganizar fichas|
+
+**Click** para seleccionar o deseleccionar las fichas.
 
 H:
 
 ## Demo
+<div style="width: 50%; float: left;">
+	<ul>
+	  <li>Instalar [processing]( https://processing.org/download/).</li>
+	  <li>Instalar libreria [proscene](https://github.com/remixlab/proscene).</li>
+	  <li>Clonar [repositorio](https://github.com/cosolorzanov/Mahjong).</li>
+	  <li>Correr Sketch.</li>
+	</ul>
+</div>
 
-
+<div style="width: 50% ; float: right;">
+	<img src="fig/Demo.JPG" height="400">
+</div>
 H:
 
 ## Conclusiones
+
+* Proscene es una libreria de facil uso.
+	* Permite tener el control de gran cantidad de eventos.
+* Trabajo futuro
+	* Implementar más niveles
+	* Adicionarle sonido al juego.
+	* Implementar más variantes de Solitario Mahjong. 
 
 H:
 
@@ -63,5 +94,5 @@ H:
 H:
 
 ## Referencias
-
-* 
+* [processing](https://processing.org/reference/)
+* [proscene](http://remixlab.github.io/proscene-javadocs/)
